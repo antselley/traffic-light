@@ -46,22 +46,19 @@ function captureTimeChange(cb){
 }
 
 
-
-/*
 var counter = 60;
 setInterval(function(){
   counter--;
-  if (counter > 40){
+  if (counter >= 40){
     stop();
   }
   else if (counter < 40 && counter > 20){
-    go();
+    caution();
   }
   else{
-    carefull();
+    go();
   }
   if (counter === 0){
     counter = 60;
   }
 }, 500);
-*/

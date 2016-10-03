@@ -6,12 +6,12 @@ function captureTrafficLightChange(number){
     if (number > 40) {
       go();
     }
+
       else if(number<40 && number>30) {
         caution();
       }
+
       else {
         stop();
       }
-
-      Just testing! 125
 }
