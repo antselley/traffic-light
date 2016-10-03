@@ -12,4 +12,6 @@ function captureTrafficLightChange(number){
       else {
         stop();
       }
+
+      Just testing! 125
 }
